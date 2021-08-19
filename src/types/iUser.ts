@@ -1,0 +1,21 @@
+export default interface iUser {
+  userid: string,
+  first_name: string,
+  last_name: string,
+  email_address: string,
+  user_wan: string,
+  org_id: string,
+  is_activ: string,
+  auth_for_input_intrare: string,
+  auth_for_input_intern: string,
+  auth_for_input_exit: string,
+  auth_for_upload_scan: string,
+  auth_todo_repartizare: string,
+  auth_toview_confidential: string,
+  auth_for_expeditie: string,
+  auth_for_search: string,
+  is_admin: string,
+  functie: string,
+  last_track_time: string,
+  csrf_token: string
+}
